@@ -209,3 +209,53 @@ header {
     z-index: -1;
   }
 }
+
+.section-2 {
+  background-color: var(--secondary-color);
+  padding: 100px 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 216px;
+
+  .sect-2-images {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+  }
+
+  .sect-2-info {
+    height: 882px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  button {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 37px;
+    padding: 18px 30px;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--primary-color);
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-primary-color);
+    transition: 0.3s;
+  }
+
+  span {
+    color: var(--background-secondary-color);
+  }
+
+  hr {
+    border: 1px solid var(--background-secondary-color);
+    width: 270px;
+    margin-bottom: 48px;
+  }
+}
