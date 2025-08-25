@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-font: 'Archivo', sans-serif;
+  --secondary-font: 'Bai Jamjuree', sans-serif;
+  --primary-color: #F2ECDE;
+  --secondary-color: #1C211A;
+  --background-primary-color: #3D4A36;
+  --background-secondary-color: #C8CE4A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 80px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: var(--secondary-font);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
