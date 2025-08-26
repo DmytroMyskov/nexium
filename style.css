@@ -595,3 +595,109 @@ header {
     gap: 56px;
   }
 }
+
+.section-7 {
+  background-color: var(--secondary-color);
+  padding: 119px 106px 132px;
+  display: flex;
+  justify-content: space-between;
+
+  .sect-7-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 68px;
+    width: 504px;
+    position: relative;
+  }
+
+  .sect-7-info h3 {
+    color: var(--background-secondary-color);
+    font-size: 50px;
+    color: var(--primary-color);
+  }
+
+  .sect-7-info h3 span {
+    color: var(--background-secondary-color);
+  }
+
+  .sect-7-info button {
+    background-color: var(--background-secondary-color);
+    border: 1px solid transparent;
+    border-radius: 37px;
+    width: 311px;
+    height: 62px;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--secondary-color);
+    transition: 0.3s;
+  }
+
+  .sect-7-info button:hover {
+    background-color: transparent;
+    color: var(--background-secondary-color);
+    border: 1px solid var(--background-secondary-color);
+    transition: 0.3s;
+  }
+
+  .sect-7-info p {
+    font-size: 24px;
+    line-height: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+  }
+
+  .carousel {
+    position: relative;
+    width: 834px;
+    max-width: 45%;
+    overflow: hidden;
+  }
+
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  .carousel-text {
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .carousel-buttons {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transform: translateY(-50%);
+  }
+
+  .carousel-btn {
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    backdrop-filter: blur(1px);
+  }
+
+  .carousel-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: background 0.3s;
+    backdrop-filter: blur(0px);
+  }
+}
