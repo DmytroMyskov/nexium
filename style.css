@@ -541,3 +541,57 @@ header {
     transition: 0.4s;
   }
 }
+
+.section-6 {
+  background-color: var(--background-secondary-color);
+  padding: 100px 106px;
+  display: flex;
+  justify-content: space-between;
+
+  .sect-6-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+  }
+
+  .sect-6-info h2 {
+    color: var(--secondary-color);
+    width: 771px;
+  }
+
+  .sect-6-info p {
+    color: var(--secondary-color);
+    width: 746px;
+    font-size: 24px;
+  }
+
+  .sect-6-info button {
+    background-color: var(--secondary-color);
+    border: 1px solid transparent;
+    border-radius: 37px;
+    width: 185px;
+    height: 62px;
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--background-secondary-color);
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .sect-6-info button:hover {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: 0.3s;
+  }
+
+  .sect-6-images {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+  }
+}
