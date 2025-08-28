@@ -12,6 +12,7 @@ document.getElementById("prev").addEventListener("click", () => {
   images.style.transform = `translateX(-${index * 100}%)`;
 });
 
+
 const faqItems = document.querySelectorAll(".faq-item");
 
 faqItems.forEach(item => {

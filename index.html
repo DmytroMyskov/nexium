@@ -10,6 +10,11 @@
     href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 
@@ -58,9 +63,9 @@
         <span>IUM</span>
       </h1>
 
-      <div>
-        <img src="images/hero-left.png" alt="">
-        <img src="images/hero-right.png" alt="">
+      <div class="hero-images">
+        <div><img src="images/hero-left.png" alt=""></div>
+        <div><img src="images/hero-right.png" alt=""></div>
       </div>
 
       <p>
@@ -89,8 +94,8 @@
 
     <section class="section-2">
       <div class="sect-2-images">
-        <img src="images/gravida-element-left.png" alt="">
-        <img src="images/gravida-element-right.png" alt="">
+        <div><img src="images/gravida-element-left.png" alt=""></div>
+        <div><img src="images/gravida-element-right.png" alt=""></div>
       </div>
 
       <div class="sect-2-info">
@@ -186,9 +191,9 @@
       <div class="sect-4-article">
         <h3>Massa pellentesque nibh arcu congue</h3>
 
-        <div>
-          <img src="images/massa-left.png" alt="">
-          <img src="images/massa-right.png" alt="">
+        <div class="sect-4-images">
+          <div><img src="images/massa-left.png" alt=""></div>
+          <div><img src="images/massa-right.png" alt=""></div>
         </div>
 
         <p>
@@ -209,89 +214,79 @@
       </div>
 
       <div class="sect-5-article">
-        <div class="list-left">
-          <li>
-            <img src="images/blandit-1.png" alt="">
-            <div>
-              <h3>Rhoncus eget mattis at aenean tellus consequat tristique in cursu cenas eget adipiscing</h3>
-              <button>Community</button>
+        <div class="card-container">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/blandit-1.png" alt="">
             </div>
-          </li>
-
-          <li>
-            <img src="images/blandit-2.png" alt="">
-            <div>
-              <h3>Diam eget senectus scelerisque in nulla orci sit porttitor. Tellus eget est varius tortor nislaliqa
-              </h3>
-              <button>Community</button>
+            <div class="card-content">
+              <div>
+                <h3>Rhoncus eget mattis at aenean tellus consequat tristique.</h3>
+                <button id="community">Community</button>
+              </div>
+              <hr>
+              <div>
+                <p>
+                  Egestas quisque venenatis enim sit lectus dolor vitae senectus quis. Pretium id eu malesuada felis.
+                  Consectetur ullamcorper in donec donec. Volutpat a in aliquet ultricies risus ac volutpat tellus. Cras
+                  augue
+                  eu donec in.
+                </p>
+                <button id="square">
+                  <img src="images/icons/arrow-left-big.svg" alt="">
+                </button>
+              </div>
             </div>
-          </li>
+          </div>
 
-          <li>
-            <img src="images/blandit-3.png" alt="">
-            <div>
-              <h3>Volutpat nunc pellentesq tempor sit odio tellus. Nibh dictum auctor duis quamdo</h3>
-              <button>Community</button>
+          <div class="card">
+            <div class="card-image">
+              <img src="images/blandit-2.png" alt="">
             </div>
-          </li>
-        </div>
+            <div class="card-content">
+              <div>
+                <h3>Diam eget senectus scelerisque in nulla orci sit porttitor.</h3>
+                <button id="community">Community</button>
+              </div>
+              <hr>
+              <div>
+                <p>
+                  Blandit vulputate mattis pellentesque dui adipiscing. Neque at odio ante in cursus risus scelerisque.
+                  Non risus non ligula quisque. Id turpis massa velit tincidunt mauris euismod scelerisque. Integer
+                  dictum
+                  ullamcorper ut egestas tincidunt mi. Orci euismod leo senectus facilisis turpis leo.
+                </p>
+                <button id="square">
+                  <img src="images/icons/arrow-left-big.svg" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
 
-        <hr>
-
-        <div class="list-right">
-          <ul>
-            <li>
-              <p>
-                Egestas quisque venenatis enim sit lectus dolor vitae senectus quis. Pretium id eu malesuada felis.
-                Consectetur
-                ullamcorper in donec donec. Volutpat a in aliquet ultricies risus ac volutpat tellus. Cras augue eu
-                donec
-                in.
-                Rhoncus eget mattis at aenean tellus consequat iaculis dignissim. Dolor quis dolor justo nunc in. Arcu
-                aliquet
-                velit
-                ultricies
-                lectus sem. Cras praesent mus sed cras diam nisi augue dignissim. Amet tristique in cursus maecenas eget
-                adipiscing.
-                Lectus lobortis nisl lacus quam sit diam.
-              </p>
-              <button>
-                <img src="images/icons/arrow-left-big.svg" alt="">
-              </button>
-            </li>
-
-            <li>
-              <p>
-                Blandit vulputate mattis pellentesque dui adipiscing. Neque at odio ante in cursus risus scelerisque.
-                Non
-                risus
-                non
-                ligula quisque. Id turpis massa velit tincidunt mauris euismod scelerisque. Integer dictum ullamcorper
-                ut
-                egestas
-                tincidunt mi. Orci euismod leo senectus facilisis turpis leo. Ut congue at imperdiet id nascetur
-                viverra.
-              </p>
-              <button>
-                <img src="images/icons/arrow-left-big.svg" alt="">
-              </button>
-            </li>
-
-            <li>
-              <p>
-                Lobortis viverra adipiscing a diam scelerisque aliquam. Curabitur aliquet ultricies porttitor facilisi
-                diam
-                orci
-                auctor felis. Accumsan ornare fames sociis nulla. Orci neque donec dictumst nibh dignissim pretium
-                adipiscing
-                mi.
-                Semper eget aliquet elit eget ultricies cursus.
-              </p>
-              <button>
-                <img src="images/icons/arrow-left-big.svg" alt="">
-              </button>
-            </li>
-          </ul>
+          <div class="card">
+            <div class="card-image">
+              <img src="images/blandit-3.png" alt="">
+            </div>
+            <div class="card-content">
+              <div>
+                <h3>Volutpat nunc pellentesq tempor sit odio tellus.</h3>
+                <button id="community">Community</button>
+              </div>
+              <hr>
+              <div>
+                <p>
+                  Lobortis viverra adipiscing a diam scelerisque aliquam. Curabitur aliquet ultricies porttitor facilisi
+                  diam
+                  orci auctor felis. Accumsan ornare fames sociis nulla. Orci neque donec dictumst nibh dignissim
+                  pretium
+                  adipiscing mi. Semper eget aliquet elit eget ultricies cursus.
+                </p>
+                <button id="square">
+                  <img src="images/icons/arrow-left-big.svg" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -316,8 +311,8 @@
       </div>
 
       <div class="sect-6-images">
-        <img src="images/volutpat-left.png" alt="">
-        <img src="images/volutpat-right.png" alt="">
+        <div><img src="images/volutpat-left.png" alt=""></div>
+        <div><img src="images/volutpat-right.png" alt=""></div>
       </div>
     </section>
 
@@ -449,7 +444,7 @@
       <p>Lobortis viverra adipiscing a diam scelerisque</p>
 
       <form action="">
-        <input type="text" placeholder="Your mail address"></input>
+        <input type="text" placeholder="Your mail address" id="mail"></input>
         <button>
           <img src="images/icons/arrow-left-medium.svg" alt="">
         </button>
